@@ -33,9 +33,9 @@ extern "C" {
 #endif
 
 /* IPC Configuration */
-#define IPC_SHM_VAR        __attribute__((section(".ipc_shm"), aligned(32)))
-#define IPC_SLOT_COUNT     8U  /* Must be a power of 2 */
-#define IPC_SLOT_SIZE      32U /* Max payload size in bytes */
+#define IPC_SHM_VAR    __attribute__((section(".ipc_shm"), aligned(32)))
+#define IPC_SLOT_COUNT 8U  /* Must be a power of 2 */
+#define IPC_SLOT_SIZE  32U /* Max payload size in bytes */
 
 /* Hardware Resources (IRQ) */
 #define IPC_IRQ_ID_CORE1   150U
