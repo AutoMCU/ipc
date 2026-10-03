@@ -21,8 +21,7 @@ jobs:
       - name: Verify toolchain
         run: |
           arm-none-eabi-gcc --version
-          arm-none-eabi-objcopy --version
-          arm-none-eabi-size --version
+          which arm-none-eabi-gcc
 
       - name: Configure CMake
         run: |
@@ -41,4 +40,4 @@ jobs:
           path: |
             build/libipc.a
             build/compile_commands.json
-          retention-days: 7
+          retention-days: 1
