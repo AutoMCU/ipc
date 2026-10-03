@@ -1,4 +1,3 @@
----
 Language: Cpp
 BasedOnStyle: LLVM
 
@@ -55,4 +54,3 @@ SortUsingDeclarations: true
 KeepEmptyLinesAtTheStartOfBlocks: true
 MaxEmptyLinesToKeep: 1
 Standard: Latest
-...
